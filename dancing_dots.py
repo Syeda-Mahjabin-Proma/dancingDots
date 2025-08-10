@@ -6,7 +6,7 @@ import math
 
 win_width = 500
 win_height = 500
-dot_speed = 1
+dot_speed = 0.01
 dots = []
 freeze = False
 blink = False
@@ -75,10 +75,10 @@ def keyboard(key, x, y):
     if key == b' ':
         freeze = not freeze
     elif key == GLUT_KEY_UP:
-        dot_speed += 0.5
+        dot_speed += 0.01
         print("Speed Up. Current Speed:", dot_speed)
     elif key == GLUT_KEY_DOWN:
-        dot_speed -= 0.5
+        dot_speed -= 0.005
         if dot_speed < 0:
             dot_speed = 0
         print("Speed Down. Current Speed:", dot_speed)
