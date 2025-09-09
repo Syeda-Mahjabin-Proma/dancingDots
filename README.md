@@ -36,8 +36,8 @@
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/your-username/dancing-dots.git
-   cd dancing-dots
+   git clone https://github.com/Syeda-Mahjabin-Proma/dancingDots.git
+   cd dancingDots
    ```
 
 2. **Install Dependencies**
